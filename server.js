@@ -40,7 +40,7 @@ app.post("/api/chat", async (req, res) => {
     // Send the user's message to Gemini
     console.log("Sending message to Gemini...");
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-3.6-flash",
       contents: message,
     });
 console.log("Gemini response received!");
