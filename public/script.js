@@ -1,4 +1,3 @@
-
 // Get HTML elements
 const chatForm = document.getElementById("chatForm");
 const messageInput = document.getElementById("messageInput");
